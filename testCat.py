@@ -1,0 +1,10 @@
+from cat import Cats
+ct1 = Cats('Барон', 'мальчик','2 года')
+ct2 = Cats ('Сэм', 'мальчик','2 года')
+print("name =" , ct1.name)
+print("gender =" , ct1.gender)
+print("age =" , ct1.age)
+print("------------------------------------")
+print("name =" , ct2.name)
+print("gender =" , ct2.gender)
+print("age =" , ct2.age)
